@@ -9,11 +9,12 @@ import "./cart-dropdown.styles.scss";
 
 const CartDropdown = ({ cartItems }) => (
   <div className="cart-dropdown">
-    <div className="cart-items">
+    <div className={`${cartItems.length >= 3 ? "scroll-bar" : ""} cart-items`}>
       {cartItems.map(cartItem => (
-        <CartItem key={CartItem.id} item={cartItem} />
+        <CartItem key={cartItem.id} item={cartItem} />
       ))}
     </div>
+
     <CustomButton>Go To Checkout</CustomButton>
   </div>
 );
