@@ -13,9 +13,13 @@
   font-weight: bolder;
   border: none;
   cursor: pointer;
-  transition: background-color 0.4s ease-in;
   display: flex;
   justify-content: center;
+
+  @media screen and (max-width: 800px) {
+    margin-bottom: 10px;
+    width: 200px;
+  }
 
   &:hover {
     background-color: white;
@@ -32,6 +36,7 @@
       border: none;
     }
   }
+
   &.inverted {
     background-color: white;
     color: black;
