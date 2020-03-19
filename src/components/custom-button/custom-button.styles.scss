@@ -9,12 +9,13 @@
   background-color: black;
   color: white;
   text-transform: uppercase;
-  font-family: "Open Sans Condensed";
+  font-family: inherit;
   font-weight: bolder;
   border: none;
   cursor: pointer;
   display: flex;
   justify-content: center;
+  transition: all 0.7s ease-in-out;
 
   @media screen and (max-width: 800px) {
     margin-bottom: 10px;

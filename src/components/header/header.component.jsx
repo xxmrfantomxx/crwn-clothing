@@ -8,7 +8,7 @@ import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 import { selectCartHidden } from "../../Redux/cart/cart.selectors";
 import { selectCurrentUser } from "../../Redux/user/user.selectors";
 
-import { ReactComponent as Logo } from "../../assets/crown.svg";
+import { ReactComponent as Logo } from "../../assets/montserrat_black_crown.svg";
 
 import {
   HeaderContainer,

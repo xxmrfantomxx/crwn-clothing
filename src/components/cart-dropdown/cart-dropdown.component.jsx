@@ -23,6 +23,7 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
     </div>
 
     <CustomButton
+      style={cartButtonStyles}
       onClick={() => {
         history.push("/checkout");
         dispatch(toggleCartHidden());
@@ -32,6 +33,10 @@ const CartDropdown = ({ cartItems, history, dispatch }) => (
     </CustomButton>
   </div>
 );
+
+const cartButtonStyles = {
+  padding: 0
+};
 
 const mapStateToProps = createStructuredSelector({
   cartItems: selectCartItems
