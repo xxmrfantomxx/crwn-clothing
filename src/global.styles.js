@@ -63,6 +63,9 @@ a {
   transition: all 0.7s ease-in-out !important;
   border-radius: 0 !important;
  
+  @media screen and (max-width: 800px) {
+    font-size: 12px !important;
+  }
 }
 
 .StripeCheckout span:hover {

@@ -20,6 +20,11 @@
   @media screen and (max-width: 800px) {
     margin-bottom: 10px;
     width: 200px;
+    font-size: 12px;
+  }
+
+  @media screen and (max-width: 350px) {
+    font-size: 10px;
   }
 
   &:hover {
