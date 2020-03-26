@@ -66,6 +66,10 @@ a {
   @media screen and (max-width: 800px) {
     font-size: 12px !important;
   }
+
+  @media screen and (max-width: 350px) {
+    font-size: 10px !important;
+  }
 }
 
 .StripeCheckout span:hover {
